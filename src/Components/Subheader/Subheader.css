@@ -1,0 +1,10 @@
+.nav{
+    background-color: #fefefe;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
