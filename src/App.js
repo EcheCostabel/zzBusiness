@@ -1,7 +1,8 @@
 import Header from "./Components/Header/Header";
 import Content from "./Components/Subheader/Subheader";
-import './App.css'
 import Slider from "./Components/Slider/Slider";
+import Footer from "./Components/Footer/Footer";
+import './App.css'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Content />
       <Slider />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,20 @@
 .navbar{
-    background-color: rgb(214, 186, 186);
+    background-color: rgb(255, 253, 253);
     height: 8rem;
 }
+
+.nav-link{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #000000;
+}
+/* .navbar-expand-lg .navbar-collapse {
+    width: 100%;
+} */
+.navbar-brand {
+    max-width: 8rem;
+  }
+

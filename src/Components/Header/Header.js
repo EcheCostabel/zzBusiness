@@ -1,13 +1,13 @@
 import React from 'react'
 import './Header.css'
-import img1 from './img1.jpg'
+import logo1 from './logo1.png'
 
 function Header() {
     return (
         <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src={img1} alt='logo' height={100} width={150}/>
+            <img src={logo1} alt='logo' class='img-fluid'/>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ function Header() {
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Porcelanatos</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Revestimientos</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>

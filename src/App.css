@@ -1,4 +1,10 @@
 .App{
-    padding: 2rem 4rem;
-    background-color: #201c1cc5;
+    padding: 0 4rem;
+    background-color: #002c5e;
+}
+
+@media screen and (max-width:600px) {
+    .App{
+        padding: 0 1.5rem;
+    }
 }

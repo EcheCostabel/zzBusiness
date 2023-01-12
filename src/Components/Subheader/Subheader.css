@@ -1,10 +1,30 @@
 .nav{
-    background-color: #fefefe;
+    background-color: rgb(0, 88, 160);
     justify-content: space-around;
     padding: 1rem 0;
 }
 
-.nav-link{
+.nav-link1{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex > button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
+
+.d-flex > button:hover{
+    background-color: #cfd6dd;
+    border: none;
+}
+
+.d-flex > button:active{
+    background: #cfd6dd;
+    border: none;
 }
