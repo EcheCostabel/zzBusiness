@@ -17,7 +17,7 @@ function Footer() {
               className="text-secondary text-decoration-none "
               href="/terminos"
             >
-              Terminos y Condiciones
+              Terminos y Condiciones 
             </a>
           </div>
           <div className="mb-1 text-center">
