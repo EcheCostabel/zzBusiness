@@ -1,6 +1,6 @@
 import React from 'react'
 import img2 from './img2.jpeg'
-import {UilShoppingCartAlt} from '@iconscout/react-unicons'
+import { UilShoppingCartAlt } from '@iconscout/react-unicons'
 import './Slider.css'
 
 function Slider() {
@@ -9,10 +9,26 @@ function Slider() {
       <img src={img2} alt='img' class='imgg' />
       <div className='pt-5 pb-5 container1'>
         <div className='col-xs-12 col-md-4 col-lg-4 div1'>
-          {/* <UilShoppingCartAlt/> */}
+          <div className='divIcons'>
+            <ion-icon name="cart"></ion-icon>
+            <p className='text-center divP'>Variedad de productos</p>
+          </div>
         </div>
-        <div className='col-xs-12 col-md-4 col-lg-4 div1'>B</div>
-        <div className='col-xs-12 col-md-4 col-lg-4 div1'>C</div>
+
+        <div className='col-xs-12 col-md-4 col-lg-4 div1'>
+          <div className='divIcons'>
+          <ion-icon name="logo-usd"></ion-icon>
+          
+          <p className='text-center divP'>El mejor precio del mercado</p>
+          </div>
+        </div>
+
+        <div className='col-xs-12 col-md-4 col-lg-4 div1'>
+        <div className='divIcons'>
+        <ion-icon name="call"></ion-icon>          
+          <p className='text-center divP'>Atención personalizada</p>
+          </div>
+        </div>
       </div>
     </div>
 
