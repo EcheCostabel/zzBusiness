@@ -33,7 +33,7 @@ function Header() {
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Porcelanatos</a></li>
                   <li><a class="dropdown-item" href="#">Revestimientos</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Adhesivos</a></li>
                 </ul>
               </li>
             </ul>
