@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      /* Aca va a ir el icono de wpp */
+      /* Aca va a ir el icono de wpp */ 
       <Content />
       <Slider />
       <Footer />
